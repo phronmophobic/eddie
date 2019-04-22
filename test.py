@@ -6,8 +6,6 @@ from more_itertools import peekable
 moonlight = midi.read_midifile('Beethoven-Moonlight-Sonata.mid')
 bodensee = midi.read_midifile('Die-Fischerin-Von-Bodensee.mid')
 
-# pattern = 
-# print pattern
 # with open('moonlight.txt','w') as f:
 #     f.write(str(moonlight))
 
@@ -86,7 +84,6 @@ def get_notes(pattern):
     tick_duration = bpm_to_tick_duration(pattern.resolution, 120)
 
     all_notes = []
-    # track_events [peekable(track) for track in pattern]
     track_infos = [{'events': peekable(track),
                     'tick': 0,
                     'activeNotes': {},
