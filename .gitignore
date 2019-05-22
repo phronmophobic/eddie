@@ -1,1 +1,11 @@
 .env
+.env2
+*.mp4
+*.mid
+*.wav
+*.json
+*.stats
+*.txt
+*.mp3
+*.mov
+vids
