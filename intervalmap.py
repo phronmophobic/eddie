@@ -97,6 +97,9 @@ class intervalmap(object):
                 self._items[:] = []
                 self._upperitem = _value
     
+    def __contains__(self, item):
+        return self[item] is not None
+
     def __getitem__(self,_point):
         """
             Gets a value from the mapping.
