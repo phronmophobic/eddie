@@ -1,5 +1,7 @@
 
+# Step 0: Install dependencies
 
+`pip install -r requirements.txt`
 
 # Step 1: Create a video of yourself playing every note
 
